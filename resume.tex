@@ -16,7 +16,7 @@
 
 \newsectionwidth{1.5in}
 
-%SAIC mandated information
+%Place holder for a side element for the header
 %\pagestyle{fancy}
 %\rhead {Mason.Matthew.S.603422.01\symbol{95}14\symbol{95}15}
 
@@ -27,52 +27,64 @@
  \name{\Large {Matt Mason}}
 
 % \address can only use 2 lines
-\address{\makebox[\textwidth]{%
-   \parbox{0.5\textwidth}{%
-   \setlength\topsep{0pt} % removes the extra spaces created by the center environment
-  \setlength\parskip{0pt}
-   \begin{center}
-   6709 Applemint Lane  \\ Alexandria, VA 22310 \\ \href{mailTo:mattsmason@gmail.com}{ mattsmason@gmail.com } \\ (410) 370-4778
-   \end{center}
-   }}}
+\address{
+	\makebox[\textwidth]{%
+   		\parbox{0.5\textwidth}{%
+   			\setlength\topsep{0pt} % removes the extra spaces created by the center environment
+   			\setlength\parskip{0pt}
+   			\begin{center}
+   				6709 Applemint Lane  \\ Alexandria, VA 22310 \\ \href{mailTo:mattsmason@gmail.com}{ mattsmason@gmail.com } \\ (410) 370-4778
+   			\end{center}
+   		}
+	}
+}
 
 \begin{resume}
 
 %		Computer Skills and software
 
-\section{COMPUTER \\ SKILLS} {\sl Languages :} Java, SQL, Chef, React, Javascript, JSP, XML, Hibernate
+\section{COMPUTER \\ SKILLS} {\sl Languages :} Java, SQL, React, Ruby, Javascript, XML, Hibernate
 
                {\sl Software:}  
 			\hangindent=2em
 			\hangafter=1
-			JBoss, Node.js, WebLogic, WebSphere, Oracle, Linux, \newline Powershell, Windows, Mac OS X, Android, Spring, VMSphere
+			JBoss, Node.js, JQuery, Spring, PostgreSQL, Oracle, \newline Powershell, Chef, Linux, Windows, Mac OS X, Android
 			
 	%   SAIC Experience
 %          image triming  is for croping the image; order of numbers defined as [left, bottom, right, top]
 %	  slanted text boxes left for potential future use and can see the section headers clearly
 \section{RELATED EXPERIENCE} {\sl  \includegraphics[scale=0.015, trim=110 200 110 120]{resume_images/SAIC_logo_RGB-lg.jpg}} \hfill January 2015 - Present \\
-                Java Developer \\
+                Software Engineer \\
                 McLean, VA
                  \begin{itemize}  \itemsep -2pt % reduce space between items
-                 \item   Worked with a Secret Clearance on a Navy application for use in 
-			mine warfare as a tactical decision aid.
-	      \item   Developed java and SQL back end code and xhtml front end code.
+              \item   Worked with a DoD Secret Clearance on a Navy tactical decision
+			aid application for mine warfare and mine counter measures.
+	      \item   Developed java and SQL back end code and xhtml front end code
+			using rich faces.
+	      \item   Developed front end code using Bootstrap, JQuery, React, and 
+			Openlayers 3 for a rewrite effort of an old tech stack.
 	      \item   Worked with AD LDS instances for authenticating users, JBoss, \newline
-			 Hibernate, NSIS, Rich Faces, React, and Openlayers.
-	      \item   Developed a chef project for automated deployment of project \newline 
-			code enabling a push to production through a build pipeline in \newline
-			10 minutes.
-	      \item   Developed a non-destructive installer which would retain a \newline
-                         previous instance's data (used Flyway, Windows Powershell,\newline
-                         Postgres functionality, retaining data from Wildfly). 
-              \item   Wrote Selenium and testng test scripts for regression testing \newline
-			 application during nightly build.
+			Hibernate, NSIS, Rich Faces, React, and Openlayers.
+	      \item   Independently developed a chef project for automated \newline 
+			deployment of project code, enabling a push to production \newline
+			from development in 10 minutes.
+	      \item  Stood up development pipelines for automated testing and \newline
+		        production of software artifacts using Gitlab, Jenkins Pipeline, \newline
+                        Chef, Nexus, SonarQube, Selenium, and VSphere.
+	      \item   Developed a new non-destructive installer which would retain a \newline
+                        previous instance's data (used Flyway, Windows Powershell,\newline
+                        Postgres functionality, retaining data from Wildfly and Hibernate search).
+              \item   Wrote Cucumber, Selenium, and testng test scripts for regression \newline
+			testing application during nightly build and a automated \newline 
+			immediate build.
 	      \item   Worked directly with the customer on testing and supporting \newline
-			customer efforts.
-	      \item   Implemented new changes and fixes for a deployed legacy system \newline
+			customer efforts in office and at the customer site.
+	      \item   Implemented new changes and fixes for a fielded legacy system \newline
                         (using Sybase and Java).
                 \end{itemize}
  
+\pagebreak
+
 	%   ACCENTURE Experience
 %          image triming  is for croping the image; order of numbers defined as [left, bottom, right, top]
 %	  slanted text boxes left for potential future use and can see the section headers clearly
@@ -80,25 +92,16 @@
                 Software Developer Specialist \\
                 Arlington, VA
                  \begin{itemize}  \itemsep -2pt % reduce space between items
-                 \item   Developed a manifest upload and processing application for
+              \item   Developed a manifest upload and processing application for
 			 the US Postal Service using Agile based methodologies including scrum.
-                 \item   Installed and configured Jenkins using Chef Ruby scripts
-			 and \newline Vagrant to automatically install and configure a server running on a VM
+              \item   Installed and configured Jenkins using Chef Ruby scripts and \newline
+			 Vagrant to automatically install and configure a server running on a VM
 	      \item   Developed code for consuming REST web services used
 			 in the file upload and processing application.
-   	      \end{itemize}
-
-	%   ACCENTURE Experience Continued
-%          image triming  is for croping the image; order of numbers defined as [left, bottom, right, top]
-%	  slanted text boxes left for potential future use and can see the section headers clearly
-	      {\sl  \includegraphics[scale=0.1, trim=110 200 110 120]{resume_images/accenture-logo.jpg}} \hfill Continued\\
-                 \begin{itemize}  \itemsep -2pt % reduce space between items
 	      \item   Developed scripts for automating deployments to IBM WebSphere
 			 using WebSphere’s Jython SOAP API to manage deployments.
-	      \item   Developed SQL scripts for updating and creating new records
-			 for supporting deployments.
-	      \item   Developed code for a Spring batch service for processing
-			 \newline uploaded files.
+	      \item   Developed Flyway SQL scripts for updating and creating new 
+			 records for supporting deployments.
 	      \item   Developed code for displaying data on uploaded and processed
 			 files using bootstrap javascript datatables.
                 \end{itemize}
@@ -109,39 +112,30 @@
                 \begin{itemize}  \itemsep -2pt %reduce space between items
                  \item Developed applications using Oracle ADF,
 			 Oracle 11g Database, and Java.
-	      \item Developed custom Java, Java Script, and JSP for
-			 US Census \newline Bureau to update their expense system
-			 to 11g technology.
-	      \item Developed custom web code in JSP for use with
-			 Oracle Access Manager. (US Census Bureau)
-	      \item Developed automated testing scripts using Selenium
-			 Server for an Oracle ADF application.  (NetApp)
+	      \item Developed custom web code in Java, Java Script, and JSP for \newline 
+		       updating an existing expense system to 11g technology using \newline 
+                       Oracle Access Manager. (US Census Bureau)
 	      \item Developed a continuous testing system using Selenium
 			 and set up a continuous integration server (Hudson)
-			 for use with testing custom web code designed for a
+			 for use with testing web code designed for a
 			 highly available point of sale system. (NetApp)
-	      \item Developed a utility with custom Java code for use with
-			 Oracle Content DB for uploading of data , administration
+	      \item Independently developed a utility with custom Java code for use with
+			 Oracle Content DB for uploading of data, administration
 			 of Content DB, and parsing data.
 			(US Forest Service)
 	      \item Installed and configured systems using Linux, tested capacity
 			 of the installed Content DB software, and tuned the JVM
 			 for use with Oracle Content DB. (US Forest Service)
-	      \item Developed Java and web code in JSFFs using Oracle's web \newline framework, ADF.
-			 (Centers for Medicare \&  Medicaid Services)
-      	      \item Developed Java and web code in JSFFs using Oracle ADF
-			 for\newline consuming SOAP web services in a highly available
-			 system.\newline (Oregon Health Care Exchange)
-	      \item Developed portlet code in JSP for an investor portal.
-			\newline(Lincoln Financial)
+      	      \item Developed Java and web code in JSFFs using Oracle ADF for \newline
+                       consuming SOAP web services in a highly available system. \newline 
+                       (Oregon Health Care Exchange)
+	      \item Developed portlet code in JSP for an investor portal. \newline
+			(Lincoln Financial)
 	      \item Helped new hires orient and become familiar with internal 
-			Oracle policies and workings.
-	      \item Presented training sessions on latest web application testing 
-			\newline techniques and using Selenium for software
-			 testing of web \newline applications.
+			Oracle policies and workings in a mentor type of role.
+	      \item Presented training sessions on latest web application testing \newline
+			 techniques.
                  \end{itemize} 
-
-\pagebreak
 
 	%  NIST Experience
 	     {\sl \includegraphics[scale=0.07]{resume_images/645px-NIST_logo.png}} \hfill            June 2009 - December 2010 \\
@@ -171,7 +165,7 @@
                  \item Provided maintenance for web pages, programs, and/or databases.
                  \item Used proprietary software, SQL tags, for embedding
 			SQL calls in Java web applications and web
-  			Code to develop web applications
+  			Code to develop web applications.
                    \end{itemize} 
 
 	%  UMD RA Experience
@@ -179,11 +173,12 @@
                 Resident Assistant \\
                 College Park, MD
                  \begin{itemize}  \itemsep -2pt % reduce space between items
-                 \item   Served on a duty system as the first response to student crisis situations
-                 \item   Developed and fostered community interactions through planned student activites
-	      \item   Encouraged a safe community by promoting responsibility and enforcing residence hall policies
-	      \item   Resolved conflicts amongst residents using conflict resolution \newline techniques
-	      \item   Provided support for about 30 freshmen and sophmores
+                 \item   Served on a duty system as the first response to student crisis situations.
+                 \item   Developed and fostered community interactions through planned student activites.
+	         \item   Encouraged a safe community by promoting responsibility and enforcing residence hall policies.
+	         \item   Resolved conflicts amongst residents using conflict resolution \newline
+	                    techniques.
+	         \item   Provided support for about 30 freshmen and sophmores.
                 \end{itemize}
 
 \section{EDUCATION}
@@ -209,11 +204,16 @@
 			
 			}}}
  		\end{multicols}
-\section{HOBBIES} Android OS Java App Programming
-			\newline
-			LaTeX
 
-References Available Upon Request
+%\section{HOBBIES} Chef Automation
+%			\newline
+%			Android OS Java App Programming
+%			\newline
+%			LaTeX
+%			\newline
+%			github: fishyfishy
+%
+%References Available Upon Request
 
 \end{resume}
 \end{document}
