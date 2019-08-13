@@ -26,7 +26,7 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQ
 
 Space saving gains for the original resume reduced from 1.1 MB to 50 KB.  
 
-Compression level settings using the `-dPDFSETTINGS switch:
+Compression level settings using the `-dPDFSETTINGS` switch:
 * `-dPDFSETTINGS=/screen`   (screen-view-only quality, 72 dpi images)
 * `-dPDFSETTINGS=/ebook`    (low quality, 150 dpi images)
 * `-dPDFSETTINGS=/printer`  (high quality, 300 dpi images)
