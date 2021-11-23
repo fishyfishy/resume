@@ -1,18 +1,18 @@
 % LaTeX resume for Matt Mason
-\documentclass[12pt, line, margin]{res} 
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
-  \usepackage[utf8]{inputenc}        		   % Use the UTF-8 Typeset
-  \usepackage[T1]{fontenc}         		   % Font Encoding Latin Modern
-  \usepackage{enumitem}              		   % Use an enumerated type
-  \usepackage{hyperref}                                      % Clickable URL's
-  \usepackage[pdftex]{graphicx}			   % Managing Images
-%  \usepackage[margin=1.0in]{geometry}	   % Used for incorporating geometrical constraints
-  \usepackage{wrapfig}				   % Used for wrapping text around or near an image also environment
-  \usepackage{multicol}				   % Used for multicol environment for multiple columns
-%  \usepackage{fancyhdr}				   % Used for header
-%  \usepackage{vwcol}				   % Used for variable width columns
-%  \usepakcage{hanging}			              % Used for hanging indentation
+\documentclass[12pt, line, margin]{res}
+% \usepackage{helvetica}                  % uses helvetica postscript font (download helvetica.sty)
+% \usepackage{newcent}                    % uses new century schoolbook postscript font
+  \usepackage[utf8]{inputenc}             % Use the UTF-8 Typeset
+  \usepackage[T1]{fontenc}                % Font Encoding Latin Modern
+  \usepackage{enumitem}                   % Use an enumerated type
+  \usepackage{hyperref}                   % Clickable URL's
+  \usepackage[pdftex]{graphicx}           % Managing Images
+% \usepackage[margin=1.0in]{geometry}     % Used for incorporating geometrical constraints
+  \usepackage{wrapfig}                    % Used for wrapping text around or near an image also environment
+  \usepackage{multicol}                   % Used for multicol environment for multiple columns
+% \usepackage{fancyhdr}                   % Used for header
+% \usepackage{vwcol}                      % Used for variable width columns
+% \usepakcage{hanging}                    % Used for hanging indentation
 
 \newsectionwidth{1.5in}
 
@@ -23,194 +23,245 @@
 
 \begin{document}
 
-%  Uses the big font defined in the res class for the top of the page
-%  Left Aligned by default
- \name{\Large {Matt Mason}}
+    %  Uses the big font defined in the res class for the top of the page
+    %  Left Aligned by default
+     \name{\Large {Matt Mason}}
 
-% \address can only use 2 lines
-\address{
-	\makebox[\textwidth]{%
-   		\parbox{0.5\textwidth}{%
-   			\setlength\topsep{0pt} % removes the extra spaces created by the center environment
-   			\setlength\parskip{0pt}
-   			\begin{center}
-   				6709 Applemint Lane  \\ Alexandria, VA 22310 \\ \href{mailTo:mattsmason@gmail.com}{ mattsmason@gmail.com } \\ (410) 370-4778
-   			\end{center}
-   		}
-	}
-}
+    % \address can only use 2 lines
+    \address {
+        \makebox[\textwidth] {
+            \parbox{0.5\textwidth} {
+                \setlength\topsep{0pt} % removes the extra spaces created by the center environment
+                \setlength\parskip{0pt}
+                \begin{center}
+                    6709 Applemint Lane  \\
+                    Alexandria, VA 22310 \\
+                    \href{mailTo:mattsmason@gmail.com}{ mattsmason@gmail.com } \\
+                    (410) 370-4778
+                \end{center}
+            }
+        }
+    }
 
-\begin{resume}
+    \begin{resume}
 
-%		Computer Skills and software
+        %  Skills and Software Experience
+        \section{SYNOPSIS}
+            {\sl Clearance :} Secret
 
-\section{SYNOPSIS} {\sl Clearance :} Secret
+            {\sl Software:}
+              \hangindent=2em
+              \hangafter=1
+              AWS, Azure, Docker, Node.js, React, Angular, Spring,\newline
+              PostgreSQL, Hibernate, Gitlab, Jenkins Pipeline, Chef, Puppet,\newline
+              Selenium, Nexus, SonarQube, Selenium, Tomcat, Apache, Kafka,\newline
+              Linux, Windows, Microservices, Powershell, GIT, Agile, Scrum,\newline
+              Jira, Confluence\newline
 
-               {\sl Software:}  
-			\hangindent=2em
-			\hangafter=1
-			AWS, Azure, Docker, Node.js, React, Angular, Spring,\newline 
-			PostgreSQL, Hibernate, Gitlab, Jenkins Pipeline, Chef, Puppet,\newline
-			Selenium, Nexus, SonarQube, Selenium, Tomcat, Apache, Kafka,\newline
-			Linux, Windows, Microservices, Powershell, GIT, Agile, Scrum,\newline
-			Jira, Confluence\newline
-
-%   NG Experience
-%          image triming  is for croping the image; order of numbers defined as [left, bottom, right, top]
-%	  slanted text boxes left for potential future use and can see the section headers clearly
-\section{ EXPERIENCE} {\sl  \includegraphics[scale=0.115, trim=10 10 25 25]{resume_images/Northrop_Grumman-2020-black-logo.jpeg}} \hfill April 2020 - Present \\
-                \textbf{Senior Principal Software Engineer} 
-                 \begin{itemize}  \itemsep -2pt % reduce space between items
-	         \item   Architected and developed DevSecOps solutions and guidance for
-	                       large programs.
-	         \item   Led outreach to development and administrative teams for \newline
-                                on-boarding to DevSecOps processes.
-                  \item   Led automation effort of automating manual processes through 
-                                scripting.
-                  \item   Architected and developed solutions for an AWS environment.
-                \end{itemize}
+        \section{EXPERIENCE}
+            %   NG Experience
+            %   image trimming is for cropping the image; order of numbers defined as [left, bottom, right, top]
+            %   slanted text boxes left for potential future use and can see the section headers clearly
+            {\sl
+              \includegraphics[
+                  scale=0.115,
+                  trim=10 10 25 25
+                ]{resume_images/Northrop_Grumman-2020-black-logo.jpeg}
+            }
+            \hfill April 2020 - Present \\
+            \textbf{Senior Principal Software Engineer}
+            \begin{itemize}  \itemsep -2pt % reduce space between items
+              \item   Architected and developed DevSecOps solutions and guidance for
+                          large programs.
+              \item   Led outreach to development and administrative teams for \newline
+                          on-boarding to DevSecOps processes.
+              \item   Led automation effort of automating manual processes through
+                          scripting.
+              \item   Architected and developed solutions for an AWS environment.
+            \end{itemize}
 
 
-	%   SAIC Experience
-%          image triming  is for croping the image; order of numbers defined as [left, bottom, right, top]
-%	  slanted text boxes left for potential future use and can see the section headers clearly
-{\sl  \includegraphics[scale=0.015, trim=110 200 110 120]{resume_images/SAIC_logo_RGB-lg.jpg}} \hfill January 2015 - April 2020 \\
-                \textbf{DevOps/Software Lead} 
-                 \begin{itemize}  \itemsep -2pt % reduce space between items
-	      \item   Provided technical approaches and guidance for architecture \newline
-                                and security to a team of engineers.
-                 \item   Maintained a backlog and led a team of engineers and \newline
-                             administrators with an agile methodology for DevOps.
-	      \item   Led development of automated software testing and pipelines \newline
-                               for building software using Gitlab, Docker, Jenkins Pipeline, Chef, 
-                               Nexus, Flyway, SonarQube, Selenium, and VSphere.
-                 \item  Led Puppet development responsible for installation and \newline
-                               configuration of applications.
-               \item  Reviewed code from multiple developers and outlined code quality \newline
-                               standards and guidelines for code review.
-	      \item   Architected information security solutions to meet DoD \newline
-                              compliance (TLS, SSL, FIPS approved ciphers, certificates).
-                \end{itemize}
-                
- \pagebreak
- % SAIC logo included due to page break
- {\sl  \includegraphics[scale=0.015, trim=110 200 110 120]{resume_images/SAIC_logo_RGB-lg.jpg}}  \newline
-                \textbf{Senior Software Engineer} 
-                 \begin{itemize}  \itemsep -2pt % reduce space between items
-	      \item   Developed production application code using Java, React, SQL, \newline
-                                HTML, Ext JS, Powershell, NSIS, and Ruby.
-	      \item   Developed applications using Severless architecture on AWS.
-	      \item   Developed a chef project for automated deployment of project \newline 
-                                code, reducing time required for pushes to production to under 10 min.
-	      \item   Developed non-destructive install capability to retain data across\newline
-                               versions (using Flyway, Windows Powershell, and Postgres). 
-                \item   Wrote Cucumber, Selenium, and testng test scripts for automated \newline
-                               regression testing.
-                \end{itemize}
- 
-% TODO - Remove Accenture and Oracle experience description for new certifications.
+            %   SAIC Experience
+            %   image trimming is for cropping the image; order of numbers defined as [left, bottom, right, top]
+            %   slanted text boxes left for potential future use and can see the section headers clearly
+            {\sl
+              \includegraphics[
+                  scale=0.015,
+                  trim=110 200 110 120
+                ]{resume_images/SAIC_logo_RGB-lg.jpg}
+            }
+            \hfill January 2015 - April 2020 \\
+            \textbf{DevOps/Software Lead}
+            \begin{itemize}  \itemsep -2pt % reduce space between items
+              \item   Provided technical approaches and guidance for architecture \newline
+                          and security to a team of engineers.
+              \item   Maintained a backlog and led a team of engineers and \newline
+                          administrators with an agile methodology for DevOps.
+              \item   Led development of automated software testing and pipelines \newline
+                          for building software using Gitlab, Docker, Jenkins Pipeline, Chef,
+                          Nexus, Flyway, SonarQube, Selenium, and VSphere.
+              \item  Led Puppet development responsible for installation and \newline
+                          configuration of applications.
+              \item  Reviewed code from multiple developers and outlined code quality \newline
+                          standards and guidelines for code review.
+              \item   Architected information security solutions to meet DoD \newline
+                          compliance (TLS, SSL, FIPS approved ciphers, certificates).
+            \end{itemize}
 
-	%   ACCENTURE Experience
-%          image triming  is for croping the image; order of numbers defined as [left, bottom, right, top]
-%	  slanted text boxes left for potential future use and can see the section headers clearly
-	      {\sl  \includegraphics[scale=0.1, trim=110 200 110 120]{resume_images/accenture-logo.jpg}} \hfill April 2014 - December 2014 \\
-                \textbf{Software Developer Specialist}
-                 \begin{itemize}  \itemsep -2pt % reduce space between items
-                \item   Pioneered Jenkins using Chef Ruby scripts and Vagrant\newline
-                               to automatically install and configure a server running on a VM.
-	      \item   Developed Flyway SQL scripts for updating and creating new 
-                               records for supporting deployments.
-                \end{itemize}
+            \pagebreak
 
-	%  ORACLE Experience
-                {\sl \includegraphics[scale=0.1]{resume_images/663px-Oracle_logo.png}} \hfill            February 2011 - March 2014 \\
-                \textbf{Software Consultant}
-                \begin{itemize}  \itemsep -2pt %reduce space between items
-	      \item Developed a continuous testing system using Selenium
-                               and a continuous integration server (Hudson) for testing web code designed
-                               for a highly available point of sale system. (NetApp)
-	      \item Presented training sessions on latest web application testing \newline
-                               and development techniques.
-                 \end{itemize} 
+            % SAIC logo included due to page break
+            {\sl
+              \includegraphics[
+                  scale=0.015,
+                  trim=110 200 110 120
+                ]{resume_images/SAIC_logo_RGB-lg.jpg}
+            }
+          % \hfill January 2015 - April 2020 \\
+            \newline
+            \textbf{Senior Software Engineer}
+            \begin{itemize}  \itemsep -2pt % reduce space between items
+              \item   Developed production application code using Java, React, SQL, \newline
+                          HTML, Ext JS, Powershell, NSIS, and Ruby.
+              \item   Developed applications using Severless architecture on AWS.
+              \item   Developed a chef project for automated deployment of project \newline
+                          code, reducing time required for pushes to production to under 10 min.
+              \item   Developed non-destructive install capability to retain data across\newline
+                          versions (using Flyway, Windows Powershell, and Postgres).
+              \item   Wrote Cucumber, Selenium, and testng test scripts for automated \newline
+                          regression testing.
+            \end{itemize}
 
-\section{EDUCATION}
+            % TODO - Note: Remove Accenture and Oracle experience description for more space.
 
-		\begin{multicols}{2}
-			{\makebox[2\columnwidth]{%
-			   \parbox{\textwidth}{%
-			   \setlength\topsep{0pt} % removes the extra spaces created by the center environment
- 			   \setlength\parskip{0pt}
-				\includegraphics[scale=0.18, trim=0 0 0 50]{resume_images/UMD_ball_logo.jpg}
-			}}}
+            %   ACCENTURE Experience
+            %   image trimming is for cropping the image; order of numbers defined as [left, bottom, right, top]
+            %   slanted text boxes left for potential future use and can see the section headers clearly
+            {\sl
+              \includegraphics[
+                  scale=0.1,
+                  trim=110 200 110 120
+                ]{resume_images/accenture-logo.jpg}
+            }
+            \hfill April 2014 - December 2014 \\
+            \textbf{Software Developer Specialist}
+            \begin{itemize}  \itemsep -2pt % reduce space between items
+              \item   Pioneered Jenkins using Chef Ruby scripts and Vagrant\newline
+                          to automatically install and configure a server running on a VM.
+              \item   Developed Flyway SQL scripts for updating and creating new
+                          records for supporting deployments.
+            \end{itemize}
 
-			{\makebox[0.55\columnwidth]{%
-			   \parbox{1.0\textwidth}{%
-			   \setlength\topsep{0pt} % removes the extra spaces created by the center environment
- 			   \setlength\parskip{0pt}
-			
-			{\sl  Bachelor of Science,} Computer Science                  2010 \\
-                		University of Maryland, College Park, MD
-			
-              		{\sl  Bachelor of Science,} Physics                  2010 \\
- 			University of Maryland, College Park, MD
-			
-			}}}
- 		\end{multicols}
-\section{CERTS}
+            %  ORACLE Experience
+            {\sl
+              \includegraphics[
+                  scale=0.1
+                ]{resume_images/663px-Oracle_logo.png}
+            }
+            \hfill            February 2011 - March 2014 \\
+            \textbf{Software Consultant}
+            \begin{itemize}  \itemsep -2pt %reduce space between items
+              \item Developed a continuous testing system using Selenium
+                          and a continuous integration server (Hudson) for testing web code designed
+                          for a highly available point of sale system. (NetApp)
+              \item Presented training sessions on latest web application testing \newline
+                          and development techniques.
+            \end{itemize}
 
-		\begin{multicols}{2}
-			{\makebox[2\columnwidth]{%
-			   \parbox{\textwidth}{%
-			   \setlength\topsep{0pt} % removes the extra spaces created by the center environment
- 			   \setlength\parskip{0pt}
-				\includegraphics[scale=0.45, trim=0 0 0 30]{resume_images/devops_institute.png}
-			}}}
+        \section{EDUCATION}
+            \begin{multicols}{2} {
+                \makebox[2\columnwidth] {
+                    \parbox{\textwidth} {
+                        \setlength\topsep{0pt} % removes the extra spaces created by the center environment
+                        \setlength\parskip{0pt}
+                        \includegraphics[
+                            scale=0.18,
+                            trim=0 0 0 50
+                          ]{resume_images/UMD_ball_logo.jpg}
+                    }
+                }
+            }
 
-			{\makebox[0.55\columnwidth]{%
-			   \parbox{1.0\textwidth}{%
-			   \setlength\topsep{0pt} % removes the extra spaces created by the center environment
- 			   \setlength\parskip{0pt}
-			
-			{\sl  DevOps Foundation} \newline
-                		DevOpsInstitute
-			
-			}}}
- 		\end{multicols}
-		\begin{multicols}{2}
-			{\makebox[2\columnwidth]{%
-			   \parbox{\textwidth}{%
-			   \setlength\topsep{0pt} % removes the extra spaces created by the center environment
- 			   \setlength\parskip{0pt}
-				\includegraphics[scale=0.27, trim=15 0 0 25]{resume_images/AWS-Developer-Associate-2020.png}
-			}}}
+            {
+                \makebox[0.55\columnwidth] {
+                    \parbox{1.0\textwidth} {
+                        \setlength\topsep{0pt} % removes the extra spaces created by the center environment
+                        \setlength\parskip{0pt}
 
-			{\makebox[0.55\columnwidth]{%
-			   \parbox{1.0\textwidth}{%
-			   \setlength\topsep{0pt} % removes the extra spaces created by the center environment
- 			   \setlength\parskip{0pt}
-			
-			{\sl  AWS Certified Developer - Associate} \newline
-                		Issued Dec 2020 Expires Dec 2023 \newline
-			Validation Number: H1VN45GDLJF4Q8CR
-			}}}
- 		\end{multicols}
+                        {\sl  Bachelor of Science,} Computer Science                  2010 \\
+                              University of Maryland, College Park, MD
 
-%\section{HOBBIES} Chef Automation
-%			\newline
-%			Android OS Java App Programming
-%			\newline
-%			LaTeX
-%			\newline
-%			github: fishyfishy
-%
-%References Available Upon Request
+                        {\sl  Bachelor of Science,} Physics                           2010 \\
+                              University of Maryland, College Park, MD
+                    }
+                }
+            }
+            \end{multicols}
 
-\end{resume}
+        \section{CERTS}
+            % DevOps Institute Cert
+            \begin{multicols}{2} {
+                \makebox[2\columnwidth] {
+                    \parbox{\textwidth} {
+                        \setlength\topsep{0pt} % removes the extra spaces created by the center environment
+                        \setlength\parskip{0pt}
+                        \includegraphics[
+                            scale=0.45,
+                            trim=0 0 0 30
+                          ]{resume_images/devops_institute.png}
+                    }
+                }
+            }
+
+            {
+                \makebox[0.55\columnwidth] {
+                    \parbox{1.0\textwidth} {
+                        \setlength\topsep{0pt} % removes the extra spaces created by the center environment
+                        \setlength\parskip{0pt}
+
+                        {\sl  DevOps Foundation} \newline
+                              DevOpsInstitute
+                    }
+                }
+            }
+            \end{multicols}
+            % AWS Developer Associate Cert
+            \begin{multicols}{2} {
+                \makebox[2\columnwidth] {
+                    \parbox{\textwidth} {
+                        \setlength\topsep{0pt} % removes the extra spaces created by the center environment
+                        \setlength\parskip{0pt}
+                        \includegraphics[
+                            scale=0.27,
+                            trim=15 0 0 25
+                          ]{resume_images/AWS-Developer-Associate-2020.png}
+                    }
+                }
+            }
+
+            {
+                \makebox[0.55\columnwidth] {
+                    \parbox{1.0\textwidth} {
+                        \setlength\topsep{0pt} % removes the extra spaces created by the center environment
+                        \setlength\parskip{0pt}
+
+                        {\sl  AWS Certified Developer - Associate} \newline
+                              Issued Dec 2020 Expires Dec 2023 \newline
+                              Validation Number: H1VN45GDLJF4Q8CR
+                    }
+                }
+            }
+            \end{multicols}
+
+        %\section{HOBBIES} Chef Automation
+        %     \newline
+        %     Android OS Java App Programming
+        %     \newline
+        %     LaTeX
+        %     \newline
+        %     github: fishyfishy
+        %
+        %References Available Upon Request
+
+    \end{resume}
 \end{document}
-
-
-
-
-
-
-
