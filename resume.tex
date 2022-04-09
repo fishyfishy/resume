@@ -1,18 +1,20 @@
 % LaTeX resume for Matt Mason
 \documentclass[12pt, line, margin]{res}
-% \usepackage{helvetica}                  % uses helvetica postscript font (download helvetica.sty)
-% \usepackage{newcent}                    % uses new century schoolbook postscript font
-  \usepackage[utf8]{inputenc}             % Use the UTF-8 Typeset
-  \usepackage[T1]{fontenc}                % Font Encoding Latin Modern
-  \usepackage{enumitem}                   % Use an enumerated type
-  \usepackage{hyperref}                   % Clickable URL's
-  \usepackage[pdftex]{graphicx}           % Managing Images
-% \usepackage[margin=1.0in]{geometry}     % Used for incorporating geometrical constraints
-  \usepackage{wrapfig}                    % Used for wrapping text around or near an image also environment
-  \usepackage{multicol}                   % Used for multicol environment for multiple columns
-% \usepackage{fancyhdr}                   % Used for header
-% \usepackage{vwcol}                      % Used for variable width columns
-% \usepakcage{hanging}                    % Used for hanging indentation
+% \usepackage{helvetica}                                                                                         % Uses helvetica postscript font (download helvetica.sty)
+% \usepackage{newcent}                                                                                          % Uses new century schoolbook postscript font
+  \usepackage[utf8]{inputenc}                                                                                    % Use the UTF-8 Typeset
+  \usepackage[T1]{fontenc}                                                                                        % Font Encoding Latin Modern
+  \usepackage{enumitem}                                                                                          % Use an enumerated type
+  \usepackage{hyperref}                                                                                             % Clickable URL's
+  \usepackage[pdftex]{graphicx}                                                                                 % Managing Images
+  \usepackage{tikz}                                                                                                     % Package for including tikz libraries
+  \usetikzlibrary{arrows.meta,calc,decorations.markings,math,arrows.meta}             % Libraries for additional graphics
+% \usepackage[margin=1.0in]{geometry}                                                                   % Used for incorporating geometrical constraints
+  \usepackage{wrapfig}                                                                                               % Used for wrapping text around or near an image also environment
+  \usepackage{multicol}                                                                                               % Used for multicol environment for multiple columns
+% \usepackage{fancyhdr}                                                                                           % Used for header
+% \usepackage{vwcol}                                                                                                % Used for variable width columns
+% \usepakcage{hanging}                                                                                            % Used for hanging indentation
 
 \newsectionwidth{1.5in}
 
@@ -57,16 +59,23 @@
               successful solutions and organizational skills to drive and deliver
               value.
 
-        \section{EXPERIENCE}
+        \section{EXPERIENCE}         
             %   NG Experience
             %   image trimming is for cropping the image; order of numbers defined as [left, bottom, right, top]
             %   slanted text boxes left for potential future use and can see the section headers clearly
             {\sl
               \includegraphics[
                   scale=0.115,
-                  trim=10 10 25 25
+                  trim=10 10 0 25
                 ]{resume_images/Northrop_Grumman-2020-black-logo.jpeg}
             }
+            \begin{tikzpicture}
+                  \draw[-{Stealth[scale=4.0]}] (0,0) -- (0.4,0);       % Transition graphic
+            \end{tikzpicture}
+            \includegraphics[
+                  scale=0.115,
+                  trim=10 10 25 25
+                ]{resume_images/Peraton-logo.jpeg}
             \hfill April 2020 - Present \\
             \textbf{Senior Principal Software Engineer}
             \begin{itemize}  \itemsep -2pt % reduce space between items
