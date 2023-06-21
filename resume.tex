@@ -5,6 +5,7 @@
   \usepackage[utf8]{inputenc}                                                                                    % Use the UTF-8 Typeset
   \usepackage[T1]{fontenc}                                                                                        % Font Encoding Latin Modern
   \usepackage{enumitem}                                                                                          % Use an enumerated type
+  \usepackage{datenumber}                                                                                       % Package for calculating date difference
   \usepackage{hyperref}                                                                                             % Clickable URL's
   \usepackage[pdftex]{graphicx}                                                                                 % Managing Images
   \usepackage{tikz}                                                                                                     % Package for including tikz libraries
@@ -22,6 +23,17 @@
 %\pagestyle{fancy}
 % SAIC HEADER
 %\rhead {Mason.Matthew.S.603422.01\symbol{95}14\symbol{95}15}
+
+\newcounter{dateone}
+\newcounter{datetwo}
+
+% Reference: https://tex.stackexchange.com/questions/14518/difference-between-two-dates
+\newcommand{\difftoday}[3]{%
+      \setmydatenumber{dateone}{\the\year}{\the\month}{\the\day}%
+      \setmydatenumber{datetwo}{#1}{#2}{#3}%
+      \addtocounter{datetwo}{-\thedateone}%
+      \the\numexpr-\thedatetwo/365\relax
+} 
 
 \begin{document}
 
@@ -57,7 +69,7 @@
               Experienced software professional and leader with a proven
               track record of leveraging industry knowledge to implement \newline
               successful solutions and organizational skills to drive and deliver
-              value for government and commercial customers.
+              value for government and commercial customers for over \difftoday{2011}{02}{01} years.
 
         \section{EXPERIENCE}         
             %   NG/Peraton Experience
