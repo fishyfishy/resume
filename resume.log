@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  8 APR 2022 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 JUN 2023 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1002,54 +1002,77 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
 
-<resume_images/SAIC_logo_RGB-lg.jpg, id=10, 3694.80376pt x 1568.86125pt>
+Overfull \hbox (8.39145pt too wide) in paragraph at lines 82--85
+[]\T1/cmr/m/n/12 Architected and de-vel-oped De-vSec-Ops so-lu-tions, li-brarie
+s, pipelines
+ []
+
+
+Overfull \hbox (2.84012pt too wide) in paragraph at lines 90--92
+[]\T1/cmr/m/n/12 Designed and Im-ple-mented An-si-ble play-books for man-ag-ing
+ legacy
+ []
+
+
+Overfull \hbox (0.48936pt too wide) in paragraph at lines 90--92
+\T1/cmr/m/n/12 ap-pli-ca-tions and in-te-grated ex-e-cu-tion into Jenk-ins CICD
+ Pipeline. 
+ []
+
+
+Overfull \hbox (4.4496pt too wide) in paragraph at lines 98--100
+\T1/cmr/m/n/12 so-lu-tions and men-tored oth-ers in the use of re-using object-
+oriented
+ []
+
+[1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./resum
+e_images/Northrop_Grumman-2020-black-logo.jpeg> <./resume_images/Peraton-logo.j
+peg>]
+<resume_images/SAIC_logo_RGB-lg.jpg, id=20, 3694.80376pt x 1568.86125pt>
 File: resume_images/SAIC_logo_RGB-lg.jpg Graphic file (type jpg)
 
 <use resume_images/SAIC_logo_RGB-lg.jpg>
 Package pdftex.def Info: resume_images/SAIC_logo_RGB-lg.jpg used on input line 
-102.
+117.
 (pdftex.def)             Requested size: 52.10742pt x 18.7141pt.
- [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./resum
-e_images/Northrop_Grumman-2020-black-logo.jpeg> <./resume_images/Peraton-logo.j
-peg> <./resume_images/SAIC_logo_RGB-lg.jpg>]
-File: resume_images/SAIC_logo_RGB-lg.jpg Graphic file (type jpg)
- <use resume_images/SAIC_logo_RGB-lg.jpg>
-Package pdftex.def Info: resume_images/SAIC_logo_RGB-lg.jpg used on input line 
-129.
-(pdftex.def)             Requested size: 52.10742pt x 18.7141pt.
+Overfull \hbox (1.02246pt too wide) in paragraph at lines 142--144
+\T1/cmr/m/n/12 React, SQL, HTML, Ext JS, Pow-er-shell, NSIS, Pup-pet, and Ruby.
+ 
+ []
 
 <resume_images/accenture-logo.jpg, id=21, 976.64874pt x 543.02875pt>
 File: resume_images/accenture-logo.jpg Graphic file (type jpg)
 
 <use resume_images/accenture-logo.jpg>
-Package pdftex.def Info: resume_images/accenture-logo.jpg used on input line 15
-5.
-(pdftex.def)             Requested size: 75.58675pt x 22.18408pt.
+Package pdftex.def Info: resume_images/accenture-logo.jpg used on input line 16
+1.
+(pdftex.def)             Requested size: 75.58675pt x 17.16502pt.
 
 <resume_images/663px-Oracle_logo.png, id=22, 665.48625pt x 94.3525pt>
 File: resume_images/663px-Oracle_logo.png Graphic file (type png)
 
 <use resume_images/663px-Oracle_logo.png>
 Package pdftex.def Info: resume_images/663px-Oracle_logo.png used on input line
- 170.
-(pdftex.def)             Requested size: 66.55252pt x 9.43579pt.
+ 177.
+(pdftex.def)             Requested size: 66.55252pt x -10.64041pt.
 
 <resume_images/UMD_ball_logo.jpg, id=24, 298.2342pt x 298.2342pt>
 File: resume_images/UMD_ball_logo.jpg Graphic file (type jpg)
 
 <use resume_images/UMD_ball_logo.jpg>
-Package pdftex.def Info: resume_images/UMD_ball_logo.jpg used on input line 193
+Package pdftex.def Info: resume_images/UMD_ball_logo.jpg used on input line 198
 .
 (pdftex.def)             Requested size: 53.67984pt x 44.64645pt.
 
-Overfull \hbox (175.67499pt too wide) in paragraph at lines 184--195
+Overfull \hbox (175.67499pt too wide) in paragraph at lines 189--200
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--195
+Underfull \hbox (badness 10000) in paragraph at lines 189--200
 
  []
 
@@ -1058,15 +1081,15 @@ File: resume_images/devops_institute.png Graphic file (type png)
 
 <use resume_images/devops_institute.png>
 Package pdftex.def Info: resume_images/devops_institute.png used on input line 
-224.
+229.
 (pdftex.def)             Requested size: 51.4919pt x 37.94136pt.
 
-Overfull \hbox (175.67499pt too wide) in paragraph at lines 215--226
+Overfull \hbox (175.67499pt too wide) in paragraph at lines 220--231
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--226
+Underfull \hbox (badness 10000) in paragraph at lines 220--231
 
  []
 
@@ -1076,32 +1099,35 @@ File: resume_images/AWS-Developer-Associate-2020.png Graphic file (type png)
 
 <use resume_images/AWS-Developer-Associate-2020.png>
 Package pdftex.def Info: resume_images/AWS-Developer-Associate-2020.png used on
- input line 250.
+ input line 255.
 (pdftex.def)             Requested size: 55.55829pt x 52.84811pt.
 
-Overfull \hbox (175.67499pt too wide) in paragraph at lines 241--252
+Overfull \hbox (175.67499pt too wide) in paragraph at lines 246--270
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--252
+Overfull \vbox (2.79999pt too high) has occurred while \output is active []
 
- []
 
-[2 <./resume_images/accenture-logo.jpg> <./resume_images/663px-Oracle_logo.png>
- <./resume_images/UMD_ball_logo.jpg> <./resume_images/devops_institute.png> <./
-resume_images/AWS-Developer-Associate-2020.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 278.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+Overfull \vbox (10.05069pt too high) has occurred while \output is active []
+
+
+[2 <./resume_images/SAIC_logo_RGB-lg.jpg> <./resume_images/accenture-logo.jpg> 
+<./resume_images/663px-Oracle_logo.png> <./resume_images/UMD_ball_logo.jpg> <./
+resume_images/devops_institute.png> <./resume_images/AWS-Developer-Associate-20
+20.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 283.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 16974 strings out of 492995
- 329365 string characters out of 6132704
- 389544 words of memory out of 5000000
- 20240 multiletter control sequences out of 15000+600000
+ 16984 strings out of 492995
+ 329673 string characters out of 6132704
+ 390544 words of memory out of 5000000
+ 20250 multiletter control sequences out of 15000+600000
  11057 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,69p,508b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1111,7 +1137,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb>
-Output written on resume.pdf (2 pages, 1126750 bytes).
+Output written on resume.pdf (2 pages, 1126808 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
